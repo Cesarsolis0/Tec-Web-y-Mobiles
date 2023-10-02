@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Propina</title>
+    <link rel="stylesheet" href="../Reto 3/Estilos.css">
+</head>
+<body>
+    <section class="contenedor">
+        <h1>Calculadora de Propina</h1>
+        <label class="label" for="TotalBoleta">Total Boleta:$</label>
+        <input class="input" type="number" id="TotalBoleta">
+        <label class="label" for="PorcentajePropina">Porcentaje de Propina:</label>
+        <select class="input" id="PorcentajePropina">
+            <option value="0.1">10%</option>
+            <option value="0.2">20%</option>
+            <option value="0.3">30%</option>
+            <option value="0.4">40%</option>
+            <option value="0.5">50%</option>
+            <option value="0.6">60%</option>
+            <option value="0.7">70%</option>
+            <option value="0.8">80%</option>
+            <option value="0.9">90%</option>
+            <option value="1">100%</option>
+    </select>
+    <p id="advertencia" style="color: red;"></p>
+    <label class="resultados" for="Propina" id="Propina">Propina:</label>
+    <label class="resultados" for="TotalPagar" id="TotalPagar">Total a Pagar:</label>
+    <button class="boton" onclick="calcular_propina()">Calcular</button>
+    </section>
+    
+
+
+
+
+
+    <script src="../Reto 3/algoritmo.js"></script>
+    
+</body>
+</html>
