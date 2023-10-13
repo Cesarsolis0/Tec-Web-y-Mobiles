@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Reto 4/estilos.css">s
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulos" >Calculadora de IMC</h1>
+        <label class="label" for="nombre">Nombre:</label>
+        <input class="input" type="text" id="nombre">
+        <label class="label" for="edad">Edad:</label>
+        <input class="input" type="number" id="edad">
+        <label class="label" for="Altura">Altura(cm)</label>
+        <input class="input" type="number" id="Altura">
+        <label class="label" for="peso">Peso(Kg):</label>
+        <input class="input" type="number" id="peso">
+        <label class="label" for="genero">Genero:</label>
+        <select class="input" id="genero">
+               <option value="Masculino">Masculino</option>
+               <option value="Femenino">Femenino</option>
+        </select>
+        <label class="label mover" for="actividad">Actividad fisica:</label>
+        <select class="input" id="actividad">
+               <option value="1.2">sedentario</option>
+               <option value="1.55">moderado</option>
+               <option value="1.9">activo</option>
+        </select>
+        <button class="boton" onclick="calcular()">Calcular</button>
+        
+        <h1 class="datos titulos" for="titulo" id="titulo">Resultados Para</h1>
+        <label class="datos" for="IMC" id="IMC">IMC:</label>
+        <label class="datos" for="clasificacion" id="clasificacion">Clasificacion:</label>
+        <label class="datos" for="GEd" id="GED">Gasto Energetico Diario:</label>
+        <label class="datos" for="Estado Nutricional" id="estado nutricional">Estado Nutricional:</label>
+
+    </div>
+    <script src="../Reto 4/algoritmo.js"></script>
+</body>
+</html>
